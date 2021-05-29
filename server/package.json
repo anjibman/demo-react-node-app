@@ -1,0 +1,21 @@
+{
+  "name": "demo-react-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "Anjib Mulepati <mulepatianjib@johndeere.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "proxy": "http://localhost:3001",
+  "engines": {
+    "node": "12.18.4"
+  }
+}
